@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html> 
+<html> 
+   <head> 
+       <link rel="stylesheet" type="text/css" href="tech4justice.css">
+
+      <SCRIPT LANGUAGE="JavaScript">
+        function go(loc) {
+      window.location.href = loc;
+       }
+    </script>
+ 
+   </head> 
+   <body> 
+      <div style="padding-top: -20px;" class="pageheader"> 
+           <p class="textfont">TECH FOR JUSTICE</p>  
+      </div> 
+ 
+ 
+     <div class="headerborder"></div> 
+     <div  class="textfont"> 
+          <ul id="menu">         
+               <li><a href='homepage.html'>Home</a></li>        
+               <li><a class="active" href='documents.html'>Documents</a></li>				  
+               <li><a href='about.html'>About</a></li>         
+               <li><a href='contact.html'>Contact</a></li>       
+          </ul> 
+     </div>     
+ 
+ 
+     <div class="textfont instructional paratext" > 
+         <p> <iframe width="300" height="150"  style="float:left;"src="https://www.youtube.com/embed/jcEu8e9QtZ4" frameborder="0" allowfullscreen></iframe><br><br><br><br><br><br><br><br></p> 
+         <p> 
+              <span class="highlighted-text">1. Paragraph 7: </span>In this paragraph explain
+               why your arrest/court proceeding is not
+               relevant the things you are trying to do such
+               as getting a job, going to school, sign up for
+               the military, etc.  Below is a questionnaire
+               to help you get started.<br><br> 
+             
+               Do you have a job?  Yes/No<br> 
+             If yes:<br> 
+             Use your response from the previous section to answer the following questions:<br>
+             Where are you working?<br>
+             What is your job title?<br>
+             What are your duties/responsibilities?<br>
+             Then answer these questions:<br>
+             What crime were you charged with?<br>
+             Why doesn't this crime affect your ability to do your job?<br><br><br> 
+
+             <span class="highlighted-text">2. Paragraph 8: </span>This paragraph gives you 
+               space to explain if your community and/or
+              neighbors support your arrests or 
+             convictions being removed from your record.
+            Talk about how they all might benefit from
+            from having your record sealed. Here is
+           a questionnaire to help get you started.<br><br>
+
+Would your community (family/friends) want your records sealed?   Yes/No<br><br><br>
+   <span class="highlighted-text">1. </span>Click the "SHOW DOCUMENT" button at the bottom to view the document.<br><br>
+    <span class="highlighted-text">2. </span>Click on the radio buttons at the bottom to go to the next section of the document.<br><br><br>
+   </p> 
+  </div>                 
+ 
+ 
+   <div class="textfont doc-container paratext" > 
+       <p> <span style="font-weight: bold; font-size: 20px;">How have you changed?</span><br><br><br>
+           <span style="font-weight: bold;">Paragraph 7:</span><br>   
+           <form> 
+                <textarea style="height: 200px; width: 600px; border: 1px solid #1b2845; border-radius: 4px;">I was charged with burglary and Breaking and Entering. After I got out of jail I joined the Joyful Noise Baptist Church. There I gave my life to Christ and I hve not been the same since. My pastor taught me not to steal anymore but to go to work. I have a steady making deliveries to businesses. God has been good to me. I don't make deliveries to peoples houses.
+                </textarea><br><br><br>
+	<span style="font-weight: bold">Paragraph 8:</span><br><br>
+	<textarea style="height: 200px; width: 600px; border: 1px solid #1b2845; border-radius: 4px;">My mother is sick. I try to help her out as much as I can. I would make more money if I could drive a truck cross country but no one will hire me because of my record.
+                  </textarea><br><br><br><br>
+	<input type="RADIO" name="loc" onClick="go('Personalinfo.html');"> 
+                 <input type="RADIO" name="loc"  onClick="go('caseinfo.html');">
+
+                 <input type="RADIO" name="loc"  onClick="go('reasons.html');">
+  
+                 <input type="RADIO" name="loc"  onClick="go('howchanged.html');" checked>
+
+                <input type="RADIO" name="loc"  onClick="go('references.html');">
+   
+               <input type="RADIO" name="loc"  onClick="go('addedinfo.html');">
+   
+               <input type="button" value="Show Document" name="loc" onClick="go('showdocument.html')"> 
+        </form>           
+     </p> 
+   </div>      
+ 
+   <script> 
+        $(document).ready(function)({$(".home").addClass("active");}) 
+   </script> 
+ 
+
+   </body> 
+ </html>			  

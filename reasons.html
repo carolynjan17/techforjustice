@@ -3,6 +3,14 @@
 <html>
   <head>
       <link rel="stylesheet" type="text/css" href="tech4justice.css">
+
+      <SCRIPT LANGUAGE="JavaScript">
+         function go(loc) {
+         window.location.href = loc;
+         }
+     </script>
+
+
   </head>
   <body>
      <div style="padding-top: -20px;" class="pageheader">
@@ -74,14 +82,22 @@
       <p> <span style="font-weight: bold; font-size: 20px;">Overall Reasons</span><br><br><br>
             <span style="font-weight: bold;">Details:</span><br>
           <form>
-               <textarea style="height: 400px; width: 400px; border: 1px solid #1b2845; border-radius: 4px;"></textarea><br><br><br><br><br>
-               <input type="RADIO" name="button" value="^button1^" data-href="Personalinfo.html">
-              <input type="RADIO" name="button" value="^button2^" data-href="caseinfo.html">
-              <input type="RADIO" name="button" value="^button3^" data-href="reasons.html" checked>
-             <input type="RADIO" name="button" value="^button4^" data-href="howchanged.html">
-             <input type="RADIO" name="button" value="^button5^" data-href="references.html">
-             <input type="RADIO" name="button" value="^button6^" data-href="addedinfo.html">
-            <input type="button" value="Show Document">
+               <textarea style="height: 400px; width: 600px; border: 1px solid #1b2845; border-radius: 4px;">When I got out of jail a friend told me about getting a CDL. I always wanted to drive a truck. It took awhile but I finally got my CDL. Since September 2011 I've been working for the Big Enterprise Corporation. Big Enterprise has been good to me but I want to drive one of those big rigs. But because of my record no one will hire me. 
+
+I make good money now but it's hard for me to get an apartment. I can afford my own place but when people see my record they won't rent to me. Right now I rent a room from one of the guys from my church.
+              </textarea><br><br><br><br><br>
+               <input type="RADIO" name="loc" onClick="go('Personalinfo.html');"> 
+             <input type="RADIO" name="loc"  onClick="go('caseinfo.html');">
+
+             <input type="RADIO" name="loc"  onClick="go('reasons.html');" checked>
+  
+            <input type="RADIO" name="loc"  onClick="go('howchanged.html');">
+
+           <input type="RADIO" name="loc"  onClick="go('references.html');">
+   
+           <input type="RADIO" name="loc"  onClick="go('addedinfo.html');">
+   
+            <input type="button" value="Show Document" name="loc" onClick="go('showdocument.html')">
        </form>          
     </p>
   </div>     
